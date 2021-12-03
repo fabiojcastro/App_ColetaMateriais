@@ -9,6 +9,7 @@ const Rounting = () => {
         <BrowserRouter>
             <Routes>
                 <Route path = "/" element={<Home />}/>
+                <Route path = "/createpoint" element={<CreatePoint />}/>
             </Routes>
         </BrowserRouter>
     );
